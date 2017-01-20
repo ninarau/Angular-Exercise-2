@@ -1,0 +1,20 @@
+<h1>
+  Teht A
+</h1>
+
+<p>
+  {{ vastaus.outDir }}
+</p>
+
+<p>
+  <strong>{{ vastaus.module }}</strong>
+</p>
+
+<h1>Teht B</h1>
+
+<ul>
+  <li *ngFor="let blogi of apinVastaus">
+    <a href="{{ blogi.blog }}">{{ blogi.name }}</a>
+  </li>
+</ul>
+
